@@ -1,0 +1,32 @@
+.work {
+  background: cadetblue;
+}
+.work .heading {
+  text-align: center;
+}
+.work .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work .content .workBx {
+  width: 50%;
+  padding: 20px;
+}
+.work .content .workBx img {
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn {
+  position: relative;
+  background: aqua;
+  display: inline-block;
+  color: black;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
