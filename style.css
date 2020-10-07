@@ -12,7 +12,7 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: url("./images/redmarble.jpg");
+  background: url("./images/IndiaGreenMarble.jpg");
   background-size: cover;
   background-position: right;
   display: flex;
@@ -121,6 +121,9 @@ header .sticky ul li a {
   min-width: 50%;
 }
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
 }
 .services .heading {
@@ -144,8 +147,11 @@ img {
   text-align: center;
   transition: 0.5%;
 }
+.services .content .servicesBx h2 {
+  color: rgb(146, 25, 146);
+}
 .services .content .servicesBx:hover {
-  background: #2196f3;
+  background: orange;
 }
 .work .heading {
   text-align: center;
