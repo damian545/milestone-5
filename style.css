@@ -12,7 +12,7 @@ section {
 .banner {
   position: relative;
   min-height: 100vh;
-  background: url("./images/IndiaGreenMarble.jpg");
+  background: url("./images/dustparticals.gif");
   background-size: cover;
   background-position: right;
   display: flex;
